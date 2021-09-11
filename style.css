@@ -1,0 +1,32 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+#start {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  border: 1px solid crimson;
+}
+#stop {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  border-radius: 50%;
+  background-color: crimson;
+  border: 1px solid blueviolet;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
